@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Share Thoughts App</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <script defer src="./js/mythoughts.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-3 bg-secondary">
+                <img src="./img/exchange.jpg" alt="" class="img-fluid img-thumbnail"/>
+            <h2 class="text-white d-inline">Elesho John</h2>
+            <small class="text-light">elesho_john</small>
+           <form action="">
+               <div class="form-group">
+                   <span class="pt-2 pb-0 text-right font-weight-bolder text-dark d-block"> <span class="thought-length">0</span>/200</span>
+                   <textarea class="p-2 mt-2 mb-2 thought form-control" name="" id="" cols="30" rows="7" ></textarea>
+                   <button class="form-control btn btn-info share-btn">Share Thought</button>
+               </div>
+           </form>
+            </div>
+            <div class="pt-3 ml-0 text-white col-9 bg-info">
+                <ul class="list-group">
+
+
+                     <li class="mb-2 d-none one-thought list-group-item text-dark">
+                      <div class="text-dark text">
+                        The thoughts appear here
+                      </div>          <div class="text-right d-block">
+                                  <a class="text-right likes btn-info btn text-light text-decoration-none" href="#">
+                                      <span class=" font-weight-bold">0</span>
+                                      <span> Like</span>
+                                </a>
+                         </div>
+                     </li>
+
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

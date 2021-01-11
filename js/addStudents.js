@@ -13,6 +13,7 @@ function btnClick(e) {
         if (sname.value && fname.value && email.value) {
 
             const newCard = document.querySelector(".card").cloneNode(true);
+            newCard.classList.remove('d-none');
 
             document.querySelector('.card').parentElement.appendChild(newCard);
             newCard.querySelector('.card-title').innerText = `${sname.value}  ${fname.value}`
